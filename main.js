@@ -31,7 +31,11 @@ function arrayLoop()  {
         newImage.setAttribute('alt', imgAltText[ imgArray[i] ]);
 
         // event listener to handle click
-        
+        newImage.addEventListener('click', e => {
+            displayedImage.src = e.target.src;
+            displayedImage.alt = e.target.alt;
+        });
+
         // overwrite (change) src of displayedImage - make it the same as newImage src
         // overwrite (change) alt of displayedImage - make it the same as newImage alt
         
