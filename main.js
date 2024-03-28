@@ -36,10 +36,7 @@ function arrayLoop()  {
             displayedImage.alt = e.target.alt;
         });
 
-        // overwrite (change) src of displayedImage - make it the same as newImage src
-        // overwrite (change) alt of displayedImage - make it the same as newImage alt
-        
-        
+    
         thumbBar.appendChild(newImage);
     }
         
@@ -48,3 +45,7 @@ function arrayLoop()  {
 arrayLoop()
 
 /* Wiring up the Darken/Lighten button */
+
+        btn.setAttribute("class", xxx);
+        btn.textContent = xxx 
+        overlay.style.backgroundColor = xxx;
